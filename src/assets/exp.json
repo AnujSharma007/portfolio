@@ -1,0 +1,29 @@
+{
+    "Experience": [
+      {
+        "duration": "January/2024-Present Time",
+        "company": "Block-Star Pvt. Ltd.",
+        "location":"South Korea",
+        "Designation": "Full Stack Developer"
+      },
+      {
+        "duration": "October/2023-January/2024",
+        "company": "Tech Align Pvt. Ltd.",
+        "location":"Navi Mumbai",
+        "Designation": "Software Developer"
+      },
+      {
+        "duration": "July/2022-August/2023",
+        "company": "Yash Technologies Pvt. Ltd.",
+        "location":"Pune",
+        "Designation": "Jr.Full Stack Developer"
+      },
+      {
+        "duration": "July/2021-July/2022",
+        "company": "Paryatan Guru Holidays Pvt.Ltd.",
+        "location":"Remote",
+        "Designation": "Web Developer Intern"
+      }
+    ]
+  }
+  
