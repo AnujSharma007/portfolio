@@ -37,7 +37,7 @@ const Work = () => {
             autoPlay={true}
           >
             {data.projects.map((i) => (
-              <div key={i.title} className="workItem" style={{backgroundColor:"rgb(191, 96, 96)"}}>
+              <div key={i.title} className="workItem" style={{backgroundColor:"#282c34",color:"white"}}>
                 <img src={i.imgSrc} alt={i.title} />
                 <aside>
                   <h3>{i.title}</h3>
@@ -47,7 +47,7 @@ const Work = () => {
                   rel="noopener noreferrer"
                   // href={i.url}
                   onClick={handleClick}
-                  style={{color:'black'}}
+                  style={{color:'white'}}
                   >
                     View Demo
                   </a>
