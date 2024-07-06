@@ -11,6 +11,8 @@ import reactImage from "../assets/icons8-react-160.png";
 import nodeImage from "../assets/icons8-nodejs-240.png";
 import mongoImage from "../assets/icons8-mongo-db-96.png";
 import firebaseImage from "../assets/icons8-firebase-240.png";
+import kubernetes from "../assets/icons8-kubernetes-240.png";
+import devops from "../assets/icons8-jenkins-240.png";
 import dockerImage from "../assets/icons8-docker-240.png";
 import awsImage from "../assets/icons8-aws-256.png";
 import awslamda from "../assets/icons8-awslambda-240.png";
@@ -37,17 +39,19 @@ const Skills = () => {
   };
 
   const skillsData = [
-    { name: "Javascript", image: jsImage },
-    { name: "HTML", image: htmlImage },
-    { name: "CSS/SCSS/MUI", image: cssImage },
-    { name: "Git | Github", image: gitImage },
     { name: "React JS", image: reactImage },
     { name: "Node JS | Express JS", image: nodeImage },
-    { name: "AWS Lamda", image: awslamda },
     { name: "Mongo", image: mongoImage },
-    { name: "Firebase | socket.io", image: firebaseImage },
+    { name: "Javascript", image: jsImage },
+    { name: "Git | Github", image: gitImage },
     { name: "Docker", image: dockerImage },
-    { name: "AWS IOT CORE | DevOps | EC2 | Lamda", image: awsImage },
+    { name: "Firebase | socket.io", image: firebaseImage },
+    { name: "DevOps", image: devops },
+    { name: "kubernetes", image: kubernetes },
+    { name: "AWS Lamda", image: awslamda },
+    { name: "AWS IOT | EC2 | Lamda", image: awsImage },
+    { name: "HTML", image: htmlImage },
+    { name: "CSS/SCSS/MUI", image: cssImage },
   ];
 
   return (

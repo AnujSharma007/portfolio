@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import { BsArrowUpRight } from "react-icons/bs";
-import DownloadResumeButton from "./downloadResume";
 import toast from "react-hot-toast";
 // import me from "../assets/vg.png";
 
@@ -63,9 +62,6 @@ const Home = ({ ratio }) => {
             <a href="#work" style={{color:"green"}}>
               Projects <BsArrowUpRight />
             </a>
-            {/* <div>
-            <DownloadResumeButton/>
-            </div> */}
           </div>
           <aside>
             <article>

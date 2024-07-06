@@ -6,6 +6,11 @@ import {
   AiOutlineArrowUp,
 } from "react-icons/ai";
 
+
+import github from "../assets/icons8-github.gif"
+import instagram from "../assets/icons8-instagram.gif";
+import linkedIn from "../assets/icons8-linkedin.gif";
+
 const Footer = () => {
   return (
     <footer>
@@ -21,16 +26,16 @@ const Footer = () => {
 
         <article>
           <a href="https://www.instagram.com/ankur.anuj/" target={"blank"}>
-            <AiFillInstagram />
+            <img src={instagram} alt={"instagram"} style={{ width: "40px", height: "40px", marginBottom: "10px" }}/>
           </a>
           <a href="https://www.linkedin.com/in/anujsharma007" target={"blank"}>
-            <AiFillLinkedin />
+            <img src={linkedIn} alt={"LinkedIn"} style={{ width: "40px", height: "40px", marginBottom: "10px" }}/>
           </a>
           <a
             href="https://github.com/AnujSharma007?tab=repositories"
             target={"blank"}
           >
-            <AiFillGithub />
+            <img src={github} alt={"Github"} style={{ width: "40px", height: "40px", marginBottom: "10px" }}/>
           </a>
         </article>
       </aside>
