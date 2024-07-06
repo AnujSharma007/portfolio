@@ -47,7 +47,7 @@ const Work = () => {
                   rel="noopener noreferrer"
                   // href={i.url}
                   onClick={handleClick}
-                  style={{color:'white'}}
+                  style={{color:'black'}}
                   >
                     View Demo
                   </a>
