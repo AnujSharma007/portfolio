@@ -25,7 +25,7 @@ function App() {
   }, [ratio]);
 
   return ratio < 3 ? (
-    <>
+    <div style={{backgroundColor:"#174340"}}> 
       <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home ratio={ratio} />
@@ -34,9 +34,10 @@ function App() {
       <Services />
       {/* <Testimonial /> */}
       <Contact />
+      <hr/>
       <Footer />
       <Toaster />
-    </>
+    </div>
   ) : (
     <em id="customMessage">Please Change the ratio to View!</em>
   );
