@@ -59,7 +59,7 @@ const Contact = () => {
     },
   };
   return (
-    <div id="contact">
+    <div id="contact" style={{color:"white"}}>
       <section>
         <motion.form onSubmit={submitHandler} {...animations.form}>
           <h2>Contact Me</h2>

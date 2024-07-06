@@ -38,14 +38,16 @@ const Home = ({ ratio }) => {
       },
     },
   };
+
   return (
     <div id="home">
       <section>
         <div>
-          <motion.h1 {...animations.h1}>
+          <motion.h1 {...animations.h1} style={{color:"white"}}>
             Hi, I Am <br /> Anuj Sharma
           </motion.h1>
-
+          <br />
+          <span style={{color:"chocolate",fontSize:"20px",fontWeight:"bolder"}}>2.5+ years of work experience in Full Stack Development</span>
           <Typewriter
             options={{
               strings: ["A Full Stack Developer", "A DevOps Engineer","An IOT Enthusiast"],
@@ -57,8 +59,8 @@ const Home = ({ ratio }) => {
           />
 
           <div>
-            <a href="mailto:anujankur13@gmail.com" onClick={()=>{toast.success("Drop your mail @ anujankur13@gmail.com")}}>Hire Me</a>
-            <a href="#work">
+            <a href="mailto:anujankur13@gmail.com" onClick={()=>{toast.success("Drop your mail @ anujankur13@gmail.com")}} style={{color:"black"}}>Contact Me</a>
+            <a href="#work" style={{color:"green"}}>
               Projects <BsArrowUpRight />
             </a>
             {/* <div>
@@ -67,7 +69,7 @@ const Home = ({ ratio }) => {
           </div>
           <aside>
             <article>
-              <p>
+              <p style={{color:"white"}}> 
                 +
                 {ratio < 3 && (
                   <motion.span
@@ -78,10 +80,10 @@ const Home = ({ ratio }) => {
                   </motion.span>
                 )}
               </p>
-              <span>Upcoming Projects</span>
+              <span style={{color:"white"}}>Upcoming Projects</span>
             </article>
 
-            <article data-special>
+            <article style={{color:"white"}}>
               <p>Contact</p>
               <span>anujankur13@gmail.com</span>
             </article>

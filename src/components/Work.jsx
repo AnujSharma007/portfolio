@@ -24,8 +24,8 @@ const Work = () => {
 
   return (
     <div id="work">
-      <h2>Upcoming Projects</h2>
-      <section>
+      <h2 style={{color:"chocolate"}}>Upcoming Projects</h2>
+      <section >
         <article>
           <Carousel
             showArrows={false}
@@ -37,7 +37,7 @@ const Work = () => {
             autoPlay={true}
           >
             {data.projects.map((i) => (
-              <div key={i.title} className="workItem">
+              <div key={i.title} className="workItem" style={{backgroundColor:"rgb(191, 96, 96)"}}>
                 <img src={i.imgSrc} alt={i.title} />
                 <aside>
                   <h3>{i.title}</h3>
@@ -47,6 +47,7 @@ const Work = () => {
                   rel="noopener noreferrer"
                   // href={i.url}
                   onClick={handleClick}
+                  style={{color:'black'}}
                   >
                     View Demo
                   </a>

@@ -1,12 +1,12 @@
 #timeline {
   width: 100%;
-  height: 90vh;
+  // height: 30vh;
   background-color: $color1;
 
   .timelineBox {
     width: 100%;
     position: relative;
-    max-width: 1200px;
+    max-width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -18,8 +18,8 @@
       position: absolute;
       width: 6px;
       background-color: $color5;
-      top: 0%;
-      bottom: 0%;
+      top: 0;
+      bottom: 0;
       left: 50%;
       margin-left: -3px;
     }
@@ -48,31 +48,59 @@
     &::after {
       content: "";
       position: absolute;
-      width: 8%px;
-      height: 8%px;
-      right: -5%px;
+      width: 8px;
+      height: 8rem;
+      right: -5px;
       background-color: $color1;
-      border: 2%px solid $color5;
+      border: 2px solid $color5;
       top: 10%;
       border-radius: 50%;
       z-index: 1;
     }
 
     > div {
-      padding: 10% 30%;
+      padding: 10px 30px;
       background-color: $color5;
       color: $color1;
-      border-radius: 6%;
+      border-radius: 6px;
     }
   }
 
   .leftTimeline {
-    left: 0%;
+    left: 0;
   }
   .rightTimeline {
-    left: 50%;
+    left: 2rem;
     &::after {
-      left: -16%;
+      left: -16px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .timelineBox {
+      max-width: 90%;
+    }
+
+    .timelineItem {
+      width: 100%;
+      padding: 1rem 1rem;
+      
+      &:nth-child(odd), 
+      &:nth-child(even) {
+        text-align: center;
+      }
+
+      &::after {
+        left: 50%;
+        margin-left: -4px;
+        right: auto;
+        top: -20px;
+        transform: translateY(-100%);
+      }
+
+      > div {
+        padding: 10px;
+      }
     }
   }
 }

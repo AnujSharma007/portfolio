@@ -1,27 +1,31 @@
 {
     "Experience": [
       {
-        "duration": "January/2024-Present Time",
+        "duration": "January/2024 - Present Time",
         "company": "Block-Star Pvt. Ltd.",
-        "location":"South Korea",
+        "url":"https://media.licdn.com/dms/image/C560BAQFyPmX_ES9BXg/company-logo_200_200/0/1632284330029/block_stars_lk_logo?e=1728518400&v=beta&t=fJ8eaFbxGztYYMn9KB-mMZdTsebvooPswXD6wEMBmNI",
+        "location":"South Korea | Remote",
         "Designation": "Full Stack Developer"
       },
       {
-        "duration": "October/2023-January/2024",
+        "duration": "October/2023 - January/2024",
         "company": "Tech Align Pvt. Ltd.",
+        "url":"https://media.licdn.com/dms/image/C4E0BAQGNhJ8CoK6HAw/company-logo_200_200/0/1630622367779?e=1728518400&v=beta&t=4WNtldrzMb_DZ1GVsAmL9j8YC9bASErlUiIH0o1U3xc",
         "location":"Navi Mumbai",
         "Designation": "Software Developer"
       },
       {
-        "duration": "July/2022-August/2023",
+        "duration": "July/2022 - August/2023",
         "company": "Yash Technologies Pvt. Ltd.",
+        "url":"https://media.licdn.com/dms/image/C560BAQHObN-z-Sg4XA/company-logo_200_200/0/1630619164646/yash_technologies_logo?e=1728518400&v=beta&t=rGcAwmprVDLFxRRvEYnOpBvmTNLGEOm2V6idPRmGmDc",
         "location":"Pune",
         "Designation": "Jr.Full Stack Developer"
       },
       {
-        "duration": "July/2021-July/2022",
+        "duration": "July/2021 - July/2022",
         "company": "Paryatan Guru Holidays Pvt.Ltd.",
-        "location":"Remote",
+        "url":"https://media.licdn.com/dms/image/D4D0BAQF-igsyjtltZQ/company-logo_200_200/0/1694693783968?e=1728518400&v=beta&t=siKSJ4unBvmAodaCaQ627KmekDvq0nWupsnKDVDdISE",
+        "location":"Delhi | Remote",
         "Designation": "Web Developer Intern"
       }
     ]

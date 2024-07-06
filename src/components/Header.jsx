@@ -3,12 +3,12 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = ({ setMenuOpen, menuOpen }) => {
   return (
-    <div style={{display:"flex",justifyContent:"space-between"}}>
-      <nav>
+    <div>
+      <nav style={{position:"sticky", color:"chocolate"}}>
         <NavContent setMenuOpen={setMenuOpen} />
       </nav>
 
-      <button className="navBtn" onClick={() => setMenuOpen(!menuOpen)}>
+      <button className="navBtn" style={{color:"chocolate"}} onClick={() => setMenuOpen(!menuOpen)}>
         <AiOutlineMenu />
       </button>
     </div>
@@ -24,9 +24,9 @@ export const HeaderPhone = ({ menuOpen, setMenuOpen }) => {
 };
 
 const NavContent = ({ setMenuOpen }) => (
-  <div >
+  <div>
     <div>
-    <h2>Anuj's Portfolio</h2>
+    <h2 style={{color:"green"}}>Anuj's Portfolio</h2>
     </div>
     {/* <div> */}
       <a onClick={() => setMenuOpen(false)} href="#home">
