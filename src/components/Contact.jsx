@@ -9,7 +9,7 @@ const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [disableBtn, setDisableBtn] = useState(false);
+  const [disableBtn, setDisableBtn] = useState(false); 
 
   const submitHandler = async (e) => {
     e.preventDefault();
@@ -59,10 +59,18 @@ const Contact = () => {
     },
   };
   return (
-    <div id="contact" style={{color:"white"}}>
+    <div id="contact">
       <section>
         <motion.form onSubmit={submitHandler} {...animations.form}>
-          <h2>Contact Me</h2>
+          <h2
+          style={{
+            background: "linear-gradient(to right, white, chocolate)",
+            WebkitBackgroundClip: "text",
+            color: "transparent",
+            fontWeight: "bold",
+            fontSize: "1.5rem"
+          }}
+          >Contact Me</h2>
           <input
             type="text"
             value={name}

@@ -24,7 +24,7 @@ function App() {
   }, [ratio]);
 
   return ratio < 3 ? (
-    <div style={{backgroundColor:"#174340"}}> 
+    <div style={{backgroundColor:"#013220"}}> 
       <HeaderPhone menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
       <Home ratio={ratio} />

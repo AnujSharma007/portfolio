@@ -42,11 +42,26 @@ const Home = ({ ratio }) => {
     <div id="home">
       <section>
         <div>
-          <motion.h1 {...animations.h1} style={{color:"white"}}>
+          <motion.h1 {...animations.h1} 
+          style={{
+            background: "linear-gradient(to right, white, chocolate)",
+            WebkitBackgroundClip: "text",
+            color: "transparent",
+            fontSize: "4rem"
+          }}
+          >
             Hi, I Am <br /> Anuj Sharma
           </motion.h1>
           <br />
-          <span style={{color:"chocolate",fontSize:"20px",fontWeight:"bolder"}}>2.5+ years of work experience in Full Stack Development</span>
+          <br />
+          <span 
+          style={{
+            background: "linear-gradient(to right, white, chocolate)",
+            WebkitBackgroundClip: "text",
+            color: "transparent",
+            fontSize: "2rem"
+          }}
+          >3 years of work experience in<br/> Full Stack Development</span>
           <Typewriter
             options={{
               strings: ["A Full Stack Developer", "A DevOps Engineer","An IOT Enthusiast"],
@@ -64,8 +79,14 @@ const Home = ({ ratio }) => {
             </a>
           </div>
           <aside>
-            <article>
-              <p style={{color:"white"}}> 
+            <article
+            style={{
+              background: "linear-gradient(to right, white, chocolate)",
+              WebkitBackgroundClip: "text",
+              color: "transparent",
+            }}
+            >
+              <p> 
                 +
                 {ratio < 3 && (
                   <motion.span
@@ -76,10 +97,16 @@ const Home = ({ ratio }) => {
                   </motion.span>
                 )}
               </p>
-              <span style={{color:"white"}}>Upcoming Projects</span>
+            <span>Upcoming Projects</span>
             </article>
 
-            <article style={{color:"white"}}>
+            <article
+             style={{
+              background: "linear-gradient(to right, white, chocolate)",
+              WebkitBackgroundClip: "text",
+              color: "transparent",
+            }}
+            >
               <p>Contact</p>
               <span>anujankur13@gmail.com</span>
             </article>

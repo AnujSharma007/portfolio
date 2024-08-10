@@ -24,9 +24,16 @@ const Work = () => {
 
   return (
     <div id="work">
-      <h2 style={{color:"chocolate"}}>Upcoming Projects</h2>
-      <section >
-        <article>
+      <h2
+      style={{
+        background: "linear-gradient(to right, white, chocolate)",
+        WebkitBackgroundClip: "text",
+        color: "transparent",
+        fontSize: "3rem"
+      }}
+      >Project Experience</h2>
+      <section style={{backgroundColor:"#111314"}}>
+        <article style={{backgroundColor:"#013220"}}>
           <Carousel
             showArrows={false}
             showIndicators={false}
@@ -39,18 +46,25 @@ const Work = () => {
             {data.projects.map((i) => (
               <div key={i.title} className="workItem" style={{backgroundColor:"#282c34",color:"white"}}>
                 <img src={i.imgSrc} alt={i.title} />
-                <aside>
-                  <h3>{i.title}</h3>
+                <aside
+                style={{
+                  background: "linear-gradient(to right, white, chocolate)",
+                  WebkitBackgroundClip: "text",
+                  color: "transparent",
+                  fontSize: "2rem"
+                }}
+                >
                   <p>{i.description}</p>
-                  <a 
+                  <h3>{i.title}</h3>
+                  {/* <a 
                   target={"_blank"}
                   rel="noopener noreferrer"
                   // href={i.url}
                   onClick={handleClick}
                   style={{color:'black'}}
                   >
-                    View Demo
-                  </a>
+                    Info
+                  </a> */}
                 </aside>
               </div>
             ))}

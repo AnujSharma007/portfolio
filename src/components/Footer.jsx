@@ -13,15 +13,31 @@ import linkedIn from "../assets/icons8-linkedin.gif";
 
 const Footer = () => {
   return (
-    <footer>
-      <div>
+    <footer style={{backgroundColor:"#111314"}}>
+      <div
+      style={{
+        background: "linear-gradient(to right, white, chocolate)",
+        WebkitBackgroundClip: "text",
+        color: "transparent",
+        fontWeight: "bold",
+        fontSize: "1.5rem"
+      }}
+      >
         {/* <img src={""} alt="Founder" /> */}
 
         <h2>Anuj Sharma</h2>
         <p>Consistency & discipline last forever.</p>
       </div>
 
-      <aside>
+      <aside
+      style={{
+        background: "linear-gradient(to right, white, chocolate)",
+        WebkitBackgroundClip: "text",
+        color: "transparent",
+        fontWeight: "bold",
+        fontSize: "1rem"
+      }}
+      >
         <h2>Social Media</h2>
 
         <article>
