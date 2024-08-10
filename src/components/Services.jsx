@@ -56,7 +56,16 @@ const Skills = () => {
 
   return (
     <div style={{ padding: "20px" }}>
-      <Typography variant="h4" align="center" gutterBottom marginBottom={"4%"} color={"chocolate"}>
+      <Typography variant="h4" align="center" gutterBottom marginBottom={"4%"}
+       style={{
+        background: "linear-gradient(to right, white, chocolate)",
+        WebkitBackgroundClip: "text",
+        color: "transparent",
+        fontWeight: "bold",
+        margin:"3rem",
+        fontSize: "3rem"
+      }}
+       >
         Skills
       </Typography>
       <Box
@@ -71,12 +80,13 @@ const Skills = () => {
               sx={{
                 minWidth: 275,
                 textAlign: "center",
-                backgroundColor: "#282c34",
+                backgroundColor: "#111314",
                 color: "white",
                 transition: "transform 0.3s, background-color 0.3s",
                 "&:hover": {
                   transform: "scale(1.05)",
-                  backgroundColor: "#3a3f47",
+                  // backgroundColor: "#3a3f47",
+                  boxShadow: "4px 5px 10px white"
                 },
               }}
             >
