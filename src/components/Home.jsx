@@ -5,8 +5,6 @@ import { BsArrowUpRight } from "react-icons/bs";
 import toast from "react-hot-toast";
 import { Button, Modal, Box, Typography, Grid, IconButton } from '@mui/material';
 import CloseIcon from '@mui/icons-material/Close';
-// import React, { useState } from 'react';
-// import me from "../assets/vg.png";
 
 const Home = ({ ratio }) => {
   const projectCount = useRef(null);
@@ -19,7 +17,6 @@ const Home = ({ ratio }) => {
     { id: 2, question: 'What is your current location', answerType: 'Answer',answer:"Pune" },
     { id: 3, question: 'Notice Period', answerType: 'Answer',answer:"1 Month (Negotiable)" },
     { id: 4, question: 'Current and Expected CTC', answerType: 'Answer',answer:"Let's connect on call. Thanks!" },
-    // Add more questions here...
   ];
 
   const handleOpen = () => setOpen(true);
