@@ -55,7 +55,7 @@ const Skills = () => {
   ];
 
   return (
-    <div style={{ padding: "20px" }}>
+    <div id="services" style={{ padding: "20px" }}>
       <Typography variant="h4" align="center" gutterBottom marginBottom={"4%"}
        style={{
         background: "linear-gradient(to right, white, chocolate)",

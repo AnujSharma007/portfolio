@@ -4,7 +4,7 @@ import data from "../assets/exp.json";
 
 const Timeline = () => {
   return (
-    <Container>
+    <Container id="timelines">
       <Box textAlign="center" marginBottom={4} marginTop={4}>
         <Typography 
           variant="h4" 
