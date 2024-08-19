@@ -99,7 +99,7 @@ const Contact = () => {
             {...animations.button}
             type="submit"
           >
-            Send Msg
+            Send
           </motion.button>
         </motion.form>
       </section>
